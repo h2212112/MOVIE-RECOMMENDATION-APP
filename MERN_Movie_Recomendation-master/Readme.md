@@ -12,10 +12,7 @@ This project is a simple movie recommendation system that leverages various tech
 4. [Workflow](#workflow)
 5. [Getting Started](#getting-started)
    - [Prerequisites](#prerequisites)
-   - [Installation](#installation)
-   - [Running the Application](#running-the-application)
-6. [Usage](#usage)
-7. [License](#license)
+6. [License](#license)
 
 ## Technologies Used
 
@@ -104,68 +101,6 @@ Before you begin, ensure you have the following installed:
 - **Python**
 - **MongoDB**
 
-### Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/dipanjanpathak/MERN_Movie_Recomendation.git
-   cd MERN_Movie_Recomendation
-   ```
-
-2. Install backend dependencies:
-
-   ```bash
-   cd backend
-   npm install
-   ```
-
-3. Install frontend dependencies:
-
-   ```bash
-   cd frontend
-   npm install
-   ```
-
-4. Install Python dependencies:
-
-   ```bash
-   cd Movie_Python
-   pip install -r requirements.txt
-   ```
-
-### Running the Application
-
-1. Start MongoDB:
-
-   ```bash
-   mongod
-   ```
-
-2. Start the backend server:
-
-   ```bash
-   cd backend
-   npm start
-   ```
-
-3. Start the frontend server:
-
-   ```bash
-   cd frontend
-   npm start
-   ```
-
-4. Start the Django server:
-
-   ```bash
-   cd Movie_Python
-   python manage.py runserver
-   ```
-
-## Usage
-
-Navigate to [http://localhost:3000](http://localhost:3000) in your browser to use the application. Use the search bar to find movies and get recommendations based on the selected movie.
 
 ## License
 
